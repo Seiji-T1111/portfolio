@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="description" content="ページの説明120文字以内で記載">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/"></script>
+    <title>ページのタイトル</title>
+</head>
+<body>
+<style>
+ 
+    /* ul
+    ------------------------------------------ */
+    ul.blog-list{
+        width:100%;
+        display: block;
+    }
+    @media only screen and (min-width: 560px) {
+        ul.blog-list{
+            display:flex;
+            flex-wrap:wrap;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    @media only screen and (min-width: 960px) {
+        ul.blog-list{
+            width: 84%;
+            max-width: 1600px;
+        }
+    }
+
+    /* li
+    ------------------------------------------ */
+    li.blog-list-item{
+        width:100%;
+        margin-bottom:10px;
+        background-color: #ccc;
+    }
+    @media only screen and (min-width: 560px) {
+        li.blog-list-item{
+            width: 32%;
+            margin: 0 2% 10px 0;
+            background-color: #999;
+        }
+        li.blog-list-item:nth-child(3n){
+	        margin-right: 0;
+        }
+    }
+    @media only screen and (min-width: 960px) {
+        li.blog-list-item{
+            width: 30%;
+            margin: 0 4.5% 10px 0;
+        }
+    }
+
+    /* liのinner
+    ------------------------------------------ */
+    div.blog-list-text{
+        padding:10px 10px;
+    }
+
+</style>
+
+
+<ul class="blog-list">
+    <li class="blog-list-item">
+        <div class="blog-list-text">
+            <p class="blog-list-ttl">土地の地目</p>
+            <p class="blog-list-category"><span>土地家屋調査士</span></p>
+            <p class="blog-list-date">2024.1.3</p>
+        </div>
+    </li>
+    <li class="blog-list-item">
+        <div class="blog-list-text">
+            <p class="blog-list-ttl">土地の地目</p>
+            <p class="blog-list-category"><span>土地家屋調査士</span></p>
+            <p class="blog-list-date">2024.1.3</p>
+        </div>
+    </li>
+    <li class="blog-list-item">
+        <div class="blog-list-text">
+            <p class="blog-list-ttl">土地の地目</p>
+            <p class="blog-list-category"><span>土地家屋調査士</span></p>
+            <p class="blog-list-date">2024.1.3</p>
+        </div>
+    </li>
+    
+</ul>
+
+</body>
+</html>
