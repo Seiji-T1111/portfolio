@@ -7,7 +7,7 @@ header{
     width: 100%; /* ヘッダーの横幅を指定する */
     height: 80px; /* ヘッダーの高さを指定する */
     z-index:100;
-    background: linear-gradient(rgba(51, 51, 51, 1) 0%,rgba(51, 51, 51,0.5) 60%,rgba(51, 51, 51,0) 100%);
+    background: linear-gradient(rgba(183, 145, 109, 1) 0%,rgba(183, 145, 109,0.5) 60%,rgba(183, 145, 109,0) 100%);
 }
 
 .header-mb{
@@ -195,7 +195,8 @@ text-decoration: none;
 .header__nav a:hover,
 .footer__nav a:hover{
     text-decoration: none;
-    opacity:.5;
+    /* opacity:.5; */
+    color:#67513D;
 }
 
 

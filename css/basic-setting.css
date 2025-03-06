@@ -18,7 +18,7 @@
     font-weight: 300;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #333333;
+    background-color: #B7916D;
     animation: fadein 1.5s forwards;
     padding-top:140px;
 }
@@ -67,5 +67,6 @@ a:link, a:visited, a:active {
   max-width:920px;
   margin:0 auto;
   padding:48px 0 80px;
-  background-color: #212121;
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
 }

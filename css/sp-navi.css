@@ -44,7 +44,7 @@ aside {
     right: -300px; /*ここの値とwidthの値を同じに設定するpxでも*/
     height: 100vh;
     color: #fff;
-    background-color: #212121;
+    background-color: #997A5C;
     padding: 10px;
     transition: all 0.2s ease-in;
   }
@@ -56,7 +56,7 @@ aside {
     margin-top: 60px;
   }
   .Sp-navi__list-menu-item {
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted rgba(121, 96, 72, 1);
     padding:24px 16px;
   }
   .Sp-navi__list-item-item-en {
